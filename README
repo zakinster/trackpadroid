@@ -1,0 +1,11 @@
+trackpadroid is an android application that allows you to turn your android device in a computer trackpad.
+
+The project is made up of two parts :
+  - The client (the android application in JAVA)
+  - The server (a computer CLI software in C++)
+
+The android application is optimized for a 10.1" ICS (Android 4.1) tablet. It has been developped and tested on a rooted Asus Transformer Time.
+
+The server software is a Unix C++ console application. It used the native C socket for communication and the X11 and Xtst libraries for pointer control. It has been tested under Ubuntu 11.10 and Fedora 7, but it should be compatible with any Unix based OS using X window system (including Mac OS X).
+
+Another server application based on the Win32 API is planned, to support Microsoft's operating systems.

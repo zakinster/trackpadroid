@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<makefile>
+
+<exe id="trackpadroidserver">
+    
+    <sources>
+		trackpadroidserver.cpp
+	</sources>
+
+	<app-type>console</app-type>
+
+	<sys-lib>X11</sys-lib>
+	<sys-lib>Xtst</sys-lib>
+</exe>
+
+</makefile>
